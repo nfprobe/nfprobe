@@ -1,0 +1,13 @@
+[package]
+name = "nfprobe"
+version = "0.0.1"
+authors = ["Wenhua Zhao <whzhao@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+libc = "0.2"
+elf_rs = "0.1"
+
+[[bin]]
+name = "nfprobe"
+path = "src/cmd/main.rs"

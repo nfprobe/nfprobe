@@ -1,0 +1,6 @@
+pub const NFPROBE_STATUS_TOTAL:        u32 = 0;
+pub const NFPROBE_CONFIG_LOOKUP_ERROR: u32 = 1;
+pub const NFPROBE_STATUS_PACKET_ERROR: u32 = 2;
+pub const NFPROBE_STATUS_LOOKUP_ERROR: u32 = 3;
+pub const NFPROBE_STATUS_UPDATE_ERROR: u32 = 4;
+pub const MAX_NFPROBE_STATUS:          u32 = 5;
