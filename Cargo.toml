@@ -6,7 +6,7 @@ edition = "2018"
 
 [dependencies]
 libc = "0.2"
-elf_rs = "0.1"
+elf_rs = "<=0.1.1"
 
 [[bin]]
 name = "nfprobe"
